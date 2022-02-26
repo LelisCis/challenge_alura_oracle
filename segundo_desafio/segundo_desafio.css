@@ -16,7 +16,7 @@ h1 {
 
 .miBoton {
     display: flex;
-    justify-content: center;
+    justify-content: left;
 
 }
 
@@ -41,17 +41,3 @@ h1 {
 
 
 
-
-
-@media (max-width: 576px) { 
-
-    #pantalla {
-        width: 400px;
-        height: 400px;
-    }
-    h1 {
-        text-align: left;
-        margin-left: 50px;
-    }
-    
-       }
