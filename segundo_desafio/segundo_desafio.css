@@ -38,3 +38,20 @@ h1 {
     border-color: #0A3871;
     color: #0A3871;
 }
+
+
+
+
+
+@media (max-width: 576px) { 
+
+    #pantalla {
+        width: 400px;
+        height: 400px;
+    }
+    h1 {
+        text-align: left;
+        margin-left: 50px;
+    }
+    
+       }
