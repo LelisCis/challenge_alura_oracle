@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge Alura One</title>
+    <link rel="stylesheet" href="primer_desafio.css">
+</head>
+<body>
+    
+    <h1>C0d1g0 <img src="https://img.icons8.com/wired/64/ffffff/lock-2.png"/> S3CR3T0</h1>
+    <main>
+
+    <div class="caja caja_contenedora_uno encriptador">
+
+        <input id="encriptar_mensaje" type="text" name="ingresar_texto" placeholder="Ingresa tu mensaje">
+        <br>
+        <button id= "boton_cifrar" type= "submit" class= "btn btn_encriptar">Encriptar</button>
+        <button id= "boton_descifrar" type= "submit" class="btn btn_desencriptar">Desencriptar</button>
+    </div>
+
+    <div class="caja caja_contenedora_dos">
+        <input id= "mensaje_encriptado" type="text" placeholder="Mensaje encriptado">
+        <br>
+        <button id= "btn_copiar" class="btn btn_copiar" onclick="copiar()">Copiar</button>
+
+    
+
+    </div>
+</main>
+
+<footer>
+    <div class="footer">© 2022 Copyright: Leliuscris Cisneros</div>
+</footer>
+
+
+
+
+<script >
+
+window.addEventListener("load", inicio, true);
+
+
+function inicio() {
+    document.getElementById("encriptar_mensaje").addEventListener("keyup", function(){
+        this.value = this.value.toLowerCase();
+    })
+    document.getElementById("mensaje_encriptado").addEventListener("keyup", function(){
+        this.value = this.value.toLowerCase();
+    })
+}
+
+function copiar() {
+
+    var content = document.getElementById('mensaje_encriptado');
+
+    content.select();
+    document.execCommand('copy');
+
+    alert("Su mensaje ha sido copiado!");
+}
+
+function cifrar(){  
+
+    let encriptador = document.getElementById("encriptar_mensaje").value;
+    let encriptado = encriptador.replace(/(e)/gi, "enter").replace(/(i)/gi, "imes").replace(/(a)/gi, "ai").replace(/(o)/gi, "ober").replace(/(u)/gi, "ufat");
+    document.getElementById("mensaje_encriptado").value = encriptado;
+    document.getElementById("encriptar_mensaje").value="";
+    }
+    var boton_cifrado = document.getElementById("boton_cifrar");
+    boton_cifrado.onclick = cifrar;
+
+function descifrar(){
+    let desencriptar = document.getElementById("encriptar_mensaje").value;
+    let desencriptado = desencriptar.replace(/(enter)/gi, "e").replace(/(imes)/gi, "i").replace(/(ai)/gi, "a").replace(/(ober)/gi, "o").replace(/(ufat)/gi, "u");
+    document.getElementById("mensaje_encriptado").value = desencriptado;
+    document.getElementById("encriptar_mensaje").value;
+    }
+    var boton_descifrado = document.getElementById("boton_descifrar");
+    boton_descifrado.onclick = descifrar;
+
+
+</script>

@@ -1,0 +1,40 @@
+body {
+    width: 1000px;
+    margin: 0;
+    
+}
+
+h1 {
+    text-align: center;
+    color: gray;
+}
+
+#pantalla {
+    background: gainsboro;
+    margin-left: 100px;
+}
+
+.miBoton {
+    display: flex;
+    justify-content: center;
+
+}
+
+#boton {
+    
+    color: white;
+    font-size: 24px;
+    width: 328px;
+    height: 67px;
+    left: 0px;
+    top: 0px;
+    background-color:#0A3871;
+    border-radius: 24px;
+    
+}
+
+#boton:hover{
+    background: transparent;
+    border-color: #0A3871;
+    color: #0A3871;
+}
