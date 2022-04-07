@@ -1,8 +1,9 @@
 body {
-    width: 1000px;
+    width: 100%;
     margin: 0;
     
 }
+
 
 h1 {
     text-align: center;
@@ -10,8 +11,10 @@ h1 {
 }
 
 #pantalla {
-    background: gainsboro;
-    margin-left: 100px;
+    background: rgb(76, 192, 92);
+    width: 100%;
+
+
 }
 
 .miBoton {
@@ -20,12 +23,12 @@ h1 {
 
 }
 
-#boton {
+button {
     
     color: white;
-    font-size: 24px;
-    width: 328px;
-    height: 67px;
+    font-size: 18px;
+    width: 220px;
+    height: 68px;
     left: 0px;
     top: 0px;
     background-color:#0A3871;

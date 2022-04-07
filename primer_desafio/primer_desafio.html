@@ -10,24 +10,28 @@
 <body>
     
     <h1>C0d1g0 <img src="https://img.icons8.com/wired/64/ffffff/lock-2.png"/> S3CR3T0</h1>
+    
     <main>
 
-    <div class="caja caja_contenedora_uno encriptador">
-
-        <input id="encriptar_mensaje" type="text" name="ingresar_texto" placeholder="Ingresa tu mensaje">
-        <br>
-        <button id= "boton_cifrar" type= "submit" class= "btn btn_encriptar">Encriptar</button>
-        <button id= "boton_descifrar" type= "submit" class="btn btn_desencriptar">Desencriptar</button>
-    </div>
-
-    <div class="caja caja_contenedora_dos">
-        <input id= "mensaje_encriptado" type="text" placeholder="Mensaje encriptado">
-        <br>
-        <button id= "btn_copiar" class="btn btn_copiar" onclick="copiar()">Copiar</button>
-
+    <div class="caja">
+        <div class="encriptador">
+            <input id="encriptar_mensaje" type="text" name="ingresar_texto" placeholder="Ingresa tu mensaje">
+            <br>
+            <button id= "boton_cifrar" type= "submit" class= "btn btn_encriptar">Encriptar</button>
+            <button id= "boton_descifrar" type= "submit" class="btn btn_desencriptar">Desencriptar</button>
+        </div>
     
-
+        <div class="desencriptador">
+            <input id= "mensaje_encriptado" type="text" placeholder="Mensaje encriptado">
+            <br>
+            <button id= "btn_copiar" class="btn btn_copiar" onclick="copiar()">Copiar</button>
+       
+        </div>
+    
     </div>
+ 
+
+
 </main>
 
 <footer>
