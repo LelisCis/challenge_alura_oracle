@@ -58,4 +58,15 @@ footer {
 }
 
 
+@media screen and (min-width: 1024px){ 
+    
+    #pantalla{ 
+        width: 80%;
+        padding: 20px;
+    }
+  
+
+}
+
+
 
