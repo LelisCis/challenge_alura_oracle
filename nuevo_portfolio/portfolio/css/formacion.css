@@ -1,0 +1,96 @@
+.formacion {
+grid-template-columns: auto;
+font-family: 'Poppins', sans-serif;
+margin-top: -116px;
+}
+
+.formacion ul li {
+    list-style: none;
+}
+
+.formacion h2 {
+    font-size: 2.75rem;
+    color: cadetblue;
+    margin-top: 60px;
+}
+
+.formacion_universidad { 
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    z-index: -1000;
+    font-size: 1.5rem;
+}
+
+
+
+.titulo {
+    font-size: 1.5rem;
+    /* margin-top: auto; */
+    background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+    -webkit-background-clip: text;
+    color: transparent;  
+}
+
+.formacion_cursos h2 {
+    font-size: 2.75rem;
+    /* margin-top: auto; */
+    background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+    -webkit-background-clip: text;
+    color: transparent;  
+}
+
+.institucion {
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+.formacion_cursos a {
+    text-decoration: none;
+}
+
+
+.formacion_cursos {
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 100;
+    margin-bottom: 0px !important;
+  
+}
+
+
+.titulo_curso {
+    color:#094074 ;
+    font-size: 1rem;
+    font-weight: 600;  
+    margin-bottom: 0px !important;
+}
+
+.institucion_curso {
+    font-weight: 200;
+    margin-bottom: 0px !important;
+    margin-top: 0px !important
+}
+
+.certificado {
+    font-weight: 300;
+    color: #3a47d5;
+
+}
+
+.imagen_formacion img {
+    z-index:-100000;
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 767px) { 
+ 
+    .formacion {
+        grid-template-columns: auto auto;
+    }
+
+} 
