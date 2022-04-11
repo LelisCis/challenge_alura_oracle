@@ -1,6 +1,11 @@
 .about {
     margin-top: 60px;
+<<<<<<< HEAD
    background: linear-gradient(to right, #0f0c29 0%, #302b63  51%, #24243e 100%);
+=======
+    background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+    background: linear-gradient(to right, #0f0c29 0%, #302b63  51%, #24243e 100%);
+>>>>>>> 7c5ea9343e5558681dc67fc6fd8bdfaa73e3dba5
 
     height: auto;
     transition: 0.5s;
