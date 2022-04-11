@@ -63,7 +63,9 @@ font-family: 'Poppins', sans-serif;
 
     transform: translateY(-15px);
     box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
-    background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+    /* background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%); */
+    background: linear-gradient(to right, #0f0c29 0%, #302b63  51%, #24243e 100%);
+
     color: white;
 }
 .skills_derecho {
