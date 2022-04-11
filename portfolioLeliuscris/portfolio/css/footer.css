@@ -121,7 +121,7 @@ form label, form legend {
 
     font-size: 0.8rem;
     font-weight: 100;
-    color: cadetblue;
+    color: white;
     margin: auto;
     /* line-height: 150%; */
     letter-spacing: 1.5px;
@@ -162,6 +162,7 @@ form label, form legend {
 
     .informacion_contacto h4 {
         font-size: 0.8rem;
+        color: white;
         text-align: left;
         margin:auto;
         letter-spacing: 1.5px;
