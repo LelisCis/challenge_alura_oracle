@@ -77,19 +77,32 @@ card */
 @media screen and (max-width: 400px) { 
 
     .container_hobbies {
-        grid-template-columns: auto;
+        grid-template-columns: auto auto;
+        column-gap: 0px;
+
     }
-    #hobbies .card {
-    
-        width: 200px;
-        height: 130px;
-  }
+      #hobbies .card { 
+            width: 80px;
+            height: 90px;
+        
+        
+        }
 
-  #hobbies img {
-    margin-top: 0px;
+        #hobbies img { 
+            margin-top: -20px;
+            width: 80px;
+            height: 80px;
+        
+        
+        }
 
-}
+        #hobbies h4 {
+            font-size: 1rem;
+            margin: auto;
+            margin-top: -10px;
+        }
 
-}
+
+        }
 
 
