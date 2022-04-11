@@ -83,57 +83,34 @@ f5f0f3
     margin-inline-end: 0px;
     font-size: 1rem;
     font-weight: 300;
-    }
-
+    } 
     
-/* .boton_descargar  {
-    width: 160px;
-    padding: 15px 0;
-    font-size: 18px;
-    color: white;
-    font-weight: bold;
-    /* background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%); */
-    /* background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
-    border: none;
-    border-radius: 5px;
-    transition: 1s background;
-    cursor: pointer;
-}
-
-.boton_descargar:hover{
-    background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
-    color: #094074;
-    border: 1px solid linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
-    transform: scale(1.2);
-} */ 
-
-
-#principal .boton_descargar {
-    background: linear-gradient(to right, #1FA2FF 0%, #12D8FA  51%, #1FA2FF  100%)}
-
-#principal .boton_descargar {
-   margin: 10px;
-   padding: 15px 45px;
-   text-align: center;
-   text-transform: uppercase;
-   transition: 0.5s;
-   background-size: 200% auto;
-   color: white;            
-   box-shadow: 0 0 20px #eee;
-   border-radius: 10px;
-   display: block;
- }
-
- #principal .boton_descargar:hover {
-   background-position: right center;
-   color: #fff;
-   text-decoration: none;
- }
+    
+    .boton_descargar {
+        background: linear-gradient(to right, #1FA2FF 0%, #12D8FA  51%, #1FA2FF  100%)}
+    
+    .boton_descargar {
+       margin: 0px;
+       padding:10px;
+       text-align: center;
+       font-size: 12px;
+       text-transform: uppercase;
+       transition: 0.5s;
+       background-size: 200% auto;
+       color: white;            
+       box-shadow: 0 0 4px #eee;
+       border-radius: 10px;
+     }
+    .boton_descargar:hover {
+       background-position: right center;
+       color: #fff;
+       text-decoration: none;
+     }
 
 
 .imagen_principal {
 
-    width: 100%;
+    /* width: 100%; */
     /* margin: auto; */
     /* padding: 20px; */
 
@@ -146,25 +123,11 @@ f5f0f3
     text-decoration: underline;
   }
 
-.btn-flotante {
-	border-radius: 100%; 
-	padding: 4px 4px; 
-	position: fixed;
-	right: 90px;
-	/* transition: all 300ms ease 0ms; */
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-	z-index: 99;
-    border: 1px solid #094074;
-}
+  .bonton_descargar {
+    background: linear-gradient(to right, #1FA2FF 0%, #12D8FA  51%, #1FA2FF  100%)}
 
 
 
-.btn-flotante:hover {
-	box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
-	transform: translateY(-5px);
-    background-color: #094074;
-    
-}
 
 .icono_linkedin {
 bottom: 160px;
@@ -252,7 +215,6 @@ bottom: 60px;
  	.btn-flotante {
 		padding: 6px 10px;
 		/* bottom: 20px; */
-		right: 80px;
 	}
 
     .btn-flotante img {

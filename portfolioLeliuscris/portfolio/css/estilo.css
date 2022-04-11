@@ -1,0 +1,64 @@
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+
+.grid-container {
+
+    display: grid;
+    column-gap: 10px;
+    row-gap: 50px;
+  
+    grid-template-columns: auto;
+    padding: 10px;
+  }
+  
+  .grid-item {
+    /* background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8); */
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  
+  }
+
+
+@media screen and (min-width: 1024px) { 
+
+    main {
+        width: 980px;
+        margin: auto;
+    }
+       
+}     
+
+
+  
+  
+  @media screen and (min-width: 767px) { 
+      .home {
+          grid-template-columns: auto auto ;
+      } 
+     .softskills {
+          grid-template-columns: auto auto ;
+      }
+      .container_hobbies {
+          grid-template-columns: auto auto auto;
+  
+      }
+      .proyectos {
+         grid-template-columns: auto auto auto;
+         padding: 10;
+  
+      }
+  
+  }
+  
+  @media screen and (min-width: 1024px) { 
+  
+      main {
+          width: 980px;
+          margin: auto;
+      }
+         
+  }    
+  

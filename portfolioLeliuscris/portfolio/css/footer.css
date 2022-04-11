@@ -1,0 +1,416 @@
+.hablemos {
+    display: grid;
+    grid-template-columns: auto;
+    column-gap: 10px;
+    row-gap: 50px;
+    padding: 40px;
+  
+}
+
+#contactos {
+    background: linear-gradient(to right, #0f0c29 0%, #302b63  51%, #24243e 100%);
+    font-family: 'Poppins', sans-serif;
+    padding: 0% !important;
+
+}
+
+
+.contenedor_contactos {
+    display: grid;
+    grid-template-columns: auto;
+    column-gap: 10px;
+    /* row-gap: 50px; */
+    /* padding: 10px; */
+     /* margin: auto; */
+  }
+
+
+
+#formulario {
+    /* display: flex; */
+    margin: auto;
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+
+}
+
+
+#contactos h2 {
+    color: #12D8FA;
+    font-size: 1.5rem;  
+    text-transform: uppercase;
+}
+
+.texto_contactos {
+    padding: 0px;
+}
+
+#contactos .texto_contactos {
+    text-align: left;
+    border-bottom: 1px solid #12D8FA;
+
+}
+
+.texto_contactos p {
+    color: cadetblue;
+    font-size: 1rem;
+   }
+
+
+form label, form legend {
+    display: block;
+    font-size: 12px;
+    text-align: left;
+   color: white;
+}
+
+#contactos input, textarea, button{
+    display: block;
+    margin: 0px 0px 10px;
+    width: 180px;
+    height: 30px;
+    border-radius: 4px ;
+    border: 1px solid #3090e9;
+    background-color: #6d58ca;
+    color: white;
+    padding: 10px;
+}
+
+ #contactos textarea {
+    min-width: 180px;
+    max-width: 180px;
+    min-height: 100px;
+    max-height: 100px;
+
+}
+
+ .enviar {
+     
+    background: linear-gradient(to right, #1FA2FF 0%, #12D8FA  51%, #1FA2FF  100%)
+
+
+
+}
+
+.enviar {
+   margin: 0px;
+   padding: 5px;
+   text-align: center;
+   font-size: 12px;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 4px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+.enviar:hover {
+   background-position: right center;
+   color: #fff;
+   text-decoration: none;
+ }
+
+
+.foto_perfil {
+    border-left: 1px solid #12D8FA;
+    margin: auto;
+
+}
+
+.foto_perfil h3 {
+
+    font-size: 0.8rem;
+    font-weight: 100;
+    color: cadetblue;
+    margin: auto;
+    /* line-height: 150%; */
+    letter-spacing: 1.5px;
+}
+
+
+
+.foto_perfil img {
+    float: inline-end;
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px 20px;
+    transition: all 0.25s;
+    background-color: #050d6d;
+}
+
+
+
+    .informacion_contacto {
+        color: cadetblue;
+        display: inline;
+        /* padding:20px !important; */
+        margin: auto;
+        border-right: 1px solid #12D8FA;
+    }
+
+    .informacion_contacto h3 {
+        font-size: 1rem;
+        text-transform: uppercase;
+        margin: auto;
+        color: #12D8FA;
+
+    }
+
+
+    .informacion_contacto h4 {
+        font-size: 0.8rem;
+        text-align: left;
+        margin:auto;
+        letter-spacing: 1.5px;
+        font-weight: 100;
+
+    }
+
+ .imagen_informacion_contacto{
+    width: 126px;
+    height: 126px;
+
+}
+
+
+
+.nav_footer {
+    display: grid;
+    column-gap: 50px;
+    row-gap: 50px;
+    font-family: 'Roboto', sans-serif;
+    grid-template-columns: auto;
+    padding: 0px;
+    background: #1FA2FF;
+
+     
+}     
+
+.nav_footer a {
+    color:white;
+    font-size: 0.8rem;
+      margin: 0 0 0 0px;
+      padding: 5px;
+      font-weight: 400;
+      text-decoration: none;
+   
+ }
+
+.nav_footer a:hover {
+        cursor: pointer;
+        text-decoration: underline;
+        color: white;
+      }
+
+
+      .menu_footer{
+        padding-bottom: 0px !important;
+        
+    }
+   
+    .nav_footer p{
+        color: white;
+        font-size: 14px;
+    }
+ input #acepto {
+   
+     color: #fff;
+ 
+
+     
+ }
+
+
+
+  label #acepto  {   
+display: inline;
+font-size: 12px;
+margin: auto;
+
+
+}
+
+
+
+
+
+
+
+
+    @media screen and (min-width:576px) and (max-width:767px){ 
+        .contenedor_contactos {
+        grid-template-columns: auto auto;
+        }
+    
+        .texto_footer h2  {
+            font-size: 2.75rem;
+         
+        }
+        footer input{
+            width: 300px;
+    
+        }
+    
+        }
+                
+     
+
+
+        @media screen and (min-width:767px){ 
+            .contenedor_contactos {
+            grid-template-columns: auto auto auto;
+            }
+      
+        
+            }
+              
+        /* @media screen and (min-width:1024px){ 
+            #formulario input{
+                width: 260px;
+                height: 20px;
+            }
+      
+            #formulario .enviar {
+                width: 160px;
+                height: 30px;
+            }
+
+            #formulario textarea {
+                min-width: 260px !important;
+                min-height: 100px !important;
+                max-width: 260px !important;
+                max-height: 100px !important;
+            }
+        
+            } */
+
+
+
+
+
+
+
+
+
+/* 
+@media screen and (min-width:576px){ 
+    .contenedor_contactos {
+    grid-template-columns: auto auto;
+    }
+
+    .texto_footer h2  {
+        font-size: 2.75rem;
+     
+    }
+    footer input{
+        width: 300px;
+
+    }
+
+    footer textarea {
+      
+    min-width: 300px;
+    max-width: 300px;
+
+    }
+    
+    }
+
+
+@media screen and (min-width:924px){ 
+.contenedor_contactos {
+grid-template-columns: auto auto auto;  
+ 
+}
+}
+ */
+
+
+
+
+
+/* 
+
+form {
+    margin: auto;
+    margin-left: 200px;
+    padding: auto;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px
+    margin: 20px 20px 10px;
+}
+
+.input-padron {
+    background-color: rgba(196, 196, 196, 0.8);
+    display: block;
+    margin: 0px 0px 10px;
+    padding: 10px 25px;
+    width: 300px;
+}
+
+footer .copyright {
+    font-size: 13px;
+    color: #ffffff;
+    margin: 20px;
+}
+
+.enviar {
+    display: flex;
+    width: 20%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #F72585;
+    border: none;
+    border-radius: 5px;
+    transition: 1s background;
+    cursor: pointer;
+    margin-top: 20px
+    ;
+}
+
+.enviar:hover{
+    background: #F72585;
+    transform: scale(1.2);
+}
+
+footer textarea {
+    min-width: 350px;
+    max-width: 400px;
+    max-height: 400px;
+    background-color: rgba(196, 196, 196, 0.8);
+
+}
+
+
+.enviar  {
+    width: 10%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #F72585;
+    border: none;
+    border-radius: 5px;
+    transition: 1s background;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background: white;
+    color:#F72585 ;
+    border: 1px solid #F72585;
+    transform: scale(1.2);
+}
+
+
+
+
+      */
